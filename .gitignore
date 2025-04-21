@@ -4,3 +4,6 @@ datasets
 lightning_logs
 runs
 weights
+experiments.py
+just.py
+weights.rar

@@ -90,7 +90,7 @@ class TrainingModule(pl.LightningModule):
             "val_precision": self.val_precision,
             "val_recall": self.val_recall,
             "val_f1score": self.val_f1score,
-            "val_iou": self.train_iou,
+            "val_iou": self.val_iou,
         }
         self.log_dict(metrics, prog_bar=True, on_step=True, on_epoch=True, logger=False)
 
